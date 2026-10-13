@@ -1,5 +1,7 @@
 # pi-opencode-go-usage
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+
 A [Paseo](https://paseo.dev) plugin that adds an **OpenCode Go** usage card to Paseo's Usage view
 for the subscription you use through [Pi](https://pi.dev).
 
@@ -53,3 +55,7 @@ then `paseo reload`.
 | `index.server.ts` | Registers the usage source with the Paseo daemon. |
 | `server/usage.ts` | Reads Pi's login store, calls the usage API, maps the windows. |
 | `shared/input.ts` | The `{ path }` input the daemon hands back to `fetch()`. |
+
+## License
+
+[MIT](./LICENSE) © iseedot

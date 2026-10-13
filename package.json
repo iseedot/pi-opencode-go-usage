@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "files": [
     "paseo-plugin.json",
-    "OVERVIEW.md",
+    "README.md",
     "index.server.ts",
     "server/",
     "shared/"

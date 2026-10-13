@@ -1,0 +1,21 @@
+{
+  "name": "paseo-plugin-pi-opencode-go-usage",
+  "private": true,
+  "version": "0.1.0",
+  "files": [
+    "paseo-plugin.json",
+    "OVERVIEW.md",
+    "index.server.ts",
+    "server/",
+    "shared/"
+  ],
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@getpaseo/plugin": "0.11.1",
+    "@types/node": "^20.19.0",
+    "typescript": "^5.9.3",
+    "zod": "^4.4.3"
+  }
+}

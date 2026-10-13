@@ -1,0 +1,7 @@
+{
+  "id": "pi-opencode-go-usage",
+  "name": "OpenCode Go usage (Pi)",
+  "requirements": {
+    "paseo": ">=0.11.0"
+  }
+}
